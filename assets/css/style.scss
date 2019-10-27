@@ -2,7 +2,7 @@
 ---
 
 $header-bg-color: #C51A4A !default;
-@import "{{ site.theme }}";
+
 .page-header {
   color: $header-heading-color;
   text-align: center;
@@ -22,3 +22,5 @@ $header-bg-color: #C51A4A !default;
     font-size: 1.75rem;
   }
 }
+
+@import "{{ site.theme }}";
