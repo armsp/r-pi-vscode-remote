@@ -2,7 +2,6 @@
 ---
 
 $header-bg-color: #C51A4A !default;
-@import "{{ site.theme }}";
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
@@ -20,6 +19,8 @@ $header-bg-color: #C51A4A !default;
     @content;
   }
 }
+
+@import "{{ site.theme }}";
 
 .page-header {
   color: $header-heading-color;
