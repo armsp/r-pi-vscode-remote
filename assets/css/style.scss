@@ -3,6 +3,23 @@
 
 $header-bg-color: #C51A4A !default;
 @import "{{ site.theme }}";
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
 
 .page-header {
   color: $header-heading-color;
