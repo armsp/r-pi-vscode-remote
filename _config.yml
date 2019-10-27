@@ -1,4 +1,6 @@
 title: R-Pi 4 VSCode Remote Development Environment
 show_downloads: false
+github:
+  is_project_page: false
 google_analytics:
 theme: jekyll-theme-cayman
