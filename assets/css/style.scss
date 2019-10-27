@@ -1,0 +1,29 @@
+---
+---
+
+$header-bg-color: #C51A4A !default;
+@import "{{ site.theme }}";
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(20deg, $header-bg-color-secondary, $header-bg-color);
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}
