@@ -53,6 +53,8 @@ We now need to find the IP Address of our R-Pi.
     - Use `nmap`
     - Follow the [official docs](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) for `nmap` and a few other methods too
 
+* The easiest method is to not find the IP Address and just use `raspberrypi.local`. Follow along for how to use that.
+
 
 # First Steps after booting
 You can read on how to SSH to remote [here](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu#basic-syntax) or just follow along -
@@ -77,6 +79,10 @@ permitted by applicable law.
 SSH is enabled and the default password for the 'pi' user has not been changed.
 This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
 ```
+## How to do it without IP Address
+Login using `ssh pi@raspberrypi.local`
+The guide below will use the exact IP Address, however note that you could just replace the IP Address with `raspberrypi.local`. So go ahead and use that freely.
+
 ## Change Password
 As mentioned in the prompt after you enter the password, lets change the password -
 ```console
