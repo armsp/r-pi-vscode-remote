@@ -309,5 +309,7 @@ do it the pro way using the command paletee as I had shown above.
 4. Voila !
 ![WorkingPythonBTLE](images/working-bluetooth.png)
 
+# [Link to install Docker](./r-pi-docker.html)
+
 # The END
 Shutdown your R-Pi -  `sudo shutdown -h now`
